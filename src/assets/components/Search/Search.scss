@@ -1,0 +1,52 @@
+.example input[type=text] {
+  border: 0;
+  outline: 0;
+  padding: 0 0 0 43px;
+  background: transparent;
+  font-size: 18px;
+}
+.example{
+  height: 64px;
+}
+.example{
+  display: flex;
+  border-radius: 93px;
+  border: 2px solid #252A2C;
+  background: #1B1E1E;
+  width: 716px;
+  height: 64px;
+  padding: 0px 30px;
+  flex-shrink: 0;
+  justify-content: space-between;
+  color: #61dafb;
+  input:focus{
+    color: white;
+  }
+  input:not(:focus) {
+    opacity: 0;
+  }
+}
+
+
+.example button {
+  padding: 10px;
+  background: transparent;
+  color: white;
+  outline: none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  img{
+    width: 29px;
+    height: 29px;
+  }
+}
+.button-search{
+  display: flex;
+  align-items: center;
+}
+.example button:hover {
+  background: #0b7dda;
+}
+
+
