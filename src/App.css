@@ -13,6 +13,9 @@
   padding-left: 24px;
   padding-right: 24px;
 }
+.swiper {
+    overflow: hidden!important;
+}
 .load{
   font-size: 80px;
 }
