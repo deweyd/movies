@@ -49,7 +49,7 @@ function SelectionСard() {
         <div className={`content__selection selection ${todosFilter.length > 0 ? 'search-block' : ''}`}>
             {todosFilter.length > 0 ? <div className="selection__title">Результати пошуку</div> : <div className="selection__title">Найкращі фільми підбірки</div>}
             {todosFilter.length > 0 ? null : <Filters sortType={sortType1} handleChange={handleChange}/>}
-            <div className="selection__cards">
+            <div className="selection__cards" style={{ display: 'none' }}>
                 {todosFilter.length > 1 ? todosFilter.map((item, index) => (
                     <Card item={item} key={index} handleItem={handleItem} patch={patch}/>
                 )) : todosLoad.map((item, index) => (
