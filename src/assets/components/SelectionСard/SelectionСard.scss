@@ -41,3 +41,7 @@
   height: 100%;
   background: #1B1E1E;
 }
+.content__box.box ~ .content__selection.selection{
+  .selection__cards{
+    display: block;
+  }
