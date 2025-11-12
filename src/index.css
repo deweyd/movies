@@ -54,7 +54,6 @@ ol, ul {
   list-style: none;
 }
 .content__box.box ~ .content__selection.selection .selection__cards{
-  
     display: block;
   }
 blockquote, q {
