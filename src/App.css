@@ -16,6 +16,9 @@
 .swiper {
     overflow: hidden!important;
 }
+.content__box.box ~ .content__selection.selection .selection__cards{
+    display: block;
+  }
 .load{
   font-size: 80px;
 }
